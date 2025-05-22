@@ -1,0 +1,9 @@
+a=int(input("Enter a First Number"))
+b=int(input("Enter a First Number"))
+c=int(input("Enter a First Number"))
+if a>b and a>c:
+    print("a is large Number")
+elif b>a and b>c:
+    print("b is large Number")
+else:
+    print("c is large Number")
