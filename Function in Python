@@ -5,3 +5,6 @@ def roshan():
     print("Rushikeah")
     print("Saurabh")
     print("Akash")
+
+#call Function
+roshan()
