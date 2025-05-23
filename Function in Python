@@ -1,0 +1,7 @@
+def roshan():
+    print("Hello")
+    print("namaste")
+    print("Roshan")
+    print("Rushikeah")
+    print("Saurabh")
+    print("Akash")
