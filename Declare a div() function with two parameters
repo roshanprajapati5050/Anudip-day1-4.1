@@ -1,0 +1,6 @@
+def div(n1,n2):
+    result=n1/n2
+    return result
+
+#call Function
+div(10,2)
