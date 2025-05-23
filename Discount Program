@@ -1,0 +1,19 @@
+prdid=int(input("1-Battery Based Toys \n 2-Key Based Toys \n 3-Electronic Based Toys \n Enter Product id 1, 2 or 3"))
+amount=float(input("Enter Amount"))
+if prdid==1:
+    if amount>=1000:
+        print("Total Paymet After Discount Rs. : ", 0.9*amount)
+    else:
+        print("No Discount Applyed Total Pay Rs. :", amount)
+elif prdid==2:
+    if amount>=100:
+        print("Total Paymet After Discount Rs. : ", 0.95*amount)
+    else:
+        print("No Discount Applyed Total Pay Rs. :", amount)
+elif prdid==3:
+    if amount>=500:
+        print("Total Paymet After Discount Rs. : ", 0.9*amount)
+    else:
+        print("No Discount Applyed Total Pay Rs. :", amount)
+else:
+    print("Invalid Product Id!!!")
