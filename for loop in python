@@ -1,0 +1,9 @@
+l=[10,20,30]
+for i in l:
+    print(i)
+
+#and another example of for loop
+
+a="Roshan"
+for i in a:
+    print(i)
